@@ -6,4 +6,7 @@ lint:
 	npx htmlhint ./src/*.html
 
 deploy:
-	npx surge ./src/
+	npm run deploy
+
+develop:
+	npx webpack serve
