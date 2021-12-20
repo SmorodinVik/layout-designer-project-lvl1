@@ -1,1 +1,17 @@
-/** CSS STYLE **/
+:root {
+  --white: #fff;
+  --transparent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --main-color: #fe8a02;
+  --main-dark: #42413c;
+  ---dark: #2a2626;
+  --transparent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+html {
+  font: 70px/1.6em open-sans, sans-serif;
+  color: var(---dark);
+  background: violet;
+}
